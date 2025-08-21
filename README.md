@@ -20,7 +20,7 @@ O notebook principal está em `notebooks/01_analise_power_refeito.ipynb` — com
 
 ---
 
-## 📁 Estrutura sugerida
+## 📁 Estrutura
 
 ```
 power-consumption/
@@ -28,7 +28,7 @@ power-consumption/
 ├─ environment.yml
 ├─ requirements.txt
 ├─ data/
-│  ├─ raw/                # dados originais (.txt ou .zip)  → não versionar
+│  ├─ raw/                # dados originais .txt
 │  └─ processed/          # derivados (csv/parquet agregados)
 └─ notebooks/
    └─ 01_analise_power_refeito.ipynb
