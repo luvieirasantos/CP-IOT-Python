@@ -1,0 +1,15 @@
+name: power-consumption
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - statsmodels
+  - pip
+  - pip:
+      - ucimlrepo
